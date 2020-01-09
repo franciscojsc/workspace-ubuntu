@@ -18,7 +18,7 @@ wget -c https://download.virtualbox.org/virtualbox/6.1.0/virtualbox-6.1_6.1.0-13
 wget -c https://www.dropbox.com/download?dl=packages/ubuntu/dropbox_2019.02.14_amd64.deb
 
 # Astah UML Community
-wget -c http://cdn.change-vision.com/files/astah-community_7.2.0.1ff236-0_all.deb
+# wget -c http://cdn.change-vision.com/files/astah-community_7.2.0.1ff236-0_all.deb
 
 # Install package .deb
 sudo dpkg --add-architecture i386
