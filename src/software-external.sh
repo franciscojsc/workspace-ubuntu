@@ -25,6 +25,6 @@ sudo dpkg --add-architecture i386
 sudo dpkg -i *.deb
 sudo dpkg --configure -a 
 sudo updatedb
-sudo apt-get -f install
+sudo apt-get -y -f install
 
 cd $HOME
