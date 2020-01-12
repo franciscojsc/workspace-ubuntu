@@ -27,7 +27,7 @@ sudo chmod +x *.sh
 
 Run the script:
 ```bash
-sudo ./install.sh
+./install.sh
 ```
 
 ## Authors
