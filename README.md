@@ -17,17 +17,17 @@ git clone https://github.com/franciscojsc/workspace-xubuntu.git
 
 Enter the folder:
 ```bash
-cd workspace-xubuntu
+cd workspace-xubuntu/src/
 ```
 
 Assign execute permission to scripts:
 ```bash
-sudo chmod +x ./src/*.sh
+sudo chmod +x *.sh
 ```
 
 Run the script:
 ```bash
-sudo ./src/install.sh
+sudo ./install.sh
 ```
 
 ## Authors
