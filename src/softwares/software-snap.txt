@@ -1,6 +1,7 @@
 gitkraken
 dbeaver-ce
 doctl
+insomnia
 inkscape
 gimp
 vlc
