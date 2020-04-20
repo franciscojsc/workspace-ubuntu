@@ -1,7 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
-    name = your-name
-    email = your-email
+    # name = your name
+    # email = your email 
 [core]
     editor = code --wait
 [diff]
