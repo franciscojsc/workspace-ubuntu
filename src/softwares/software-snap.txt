@@ -3,7 +3,6 @@ dbeaver-ce
 doctl
 inkscape
 gimp
-polar-bookshelf
 buka
 vlc
 kdenlive
