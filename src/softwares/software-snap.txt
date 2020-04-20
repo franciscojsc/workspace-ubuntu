@@ -1,0 +1,13 @@
+gitkraken
+dbeaver-ce
+doctl
+inkscape
+gimp
+polar-bookshelf
+buka
+vlc
+kdenlive
+obs-studio
+audacity
+telegram-desktop
+ktouch

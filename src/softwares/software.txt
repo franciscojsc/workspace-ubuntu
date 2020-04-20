@@ -1,0 +1,11 @@
+curl
+docker-compose
+git
+tmux
+default-jdk
+default-jre
+zsh
+diodon
+make
+gparted
+gdebi
