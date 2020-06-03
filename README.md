@@ -8,6 +8,48 @@ This repository is intended to provide the initial setup after installing the Ub
 
 The following steps provide instructions for performing program installations and setting up the HOME directory.
 
+### List of programs :computer:
+
+- peek
+- veracrypt
+- ohmyzsh
+- docker
+- nvm
+- google-chrome
+- flameshot
+- virtualbox
+- dropbox
+- curl
+- docker-compose
+- git
+- tmux
+- default-jdk
+- default-jre
+- zsh
+- diodon
+- make
+- gparted
+- gdebi
+- snap
+- gitkraken
+- dbeaver-ce
+- doctl
+- insomnia
+- scrcpy
+- inkscape
+- gimp
+- vlc
+- kdenlive
+- obs-studio
+- audacity
+- telegram-desktop
+- ktouch
+- android-studio
+- eclipse
+- netbeans
+- code
+- pycharm-community
+
 ### Installing :wrench:
 
 Clone this repository:
