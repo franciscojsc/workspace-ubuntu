@@ -17,7 +17,7 @@ gparted
 gdebi
 snap
 gitkraken
-dbeaver
+dbeaver-ce
 doctl
 insomnia
 scrcpy
