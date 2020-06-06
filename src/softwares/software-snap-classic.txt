@@ -3,3 +3,4 @@ eclipse
 netbeans
 code
 pycharm-community
+gitkraken

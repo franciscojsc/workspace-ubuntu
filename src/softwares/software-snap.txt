@@ -1,4 +1,3 @@
-gitkraken
 dbeaver-ce
 doctl
 insomnia
