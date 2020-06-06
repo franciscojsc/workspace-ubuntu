@@ -24,4 +24,4 @@ sudo dpkg --configure -a
 sudo updatedb
 sudo apt-get -y -f install
 
-cd $HOME
+cd -
