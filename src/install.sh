@@ -34,6 +34,9 @@ sudo apt-get -y autoclean &&
 sudo apt-get -y clean &&
 sudo apt-get -y autoremove
 
+# Software list
+source ./software-list.sh
+
 # End of Script
 echo
 echo
