@@ -11,9 +11,6 @@ wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.de
 # flameshot
 wget -c https://github.com/lupoDharkael/flameshot/releases/download/v0.6.0/flameshot_0.6.0_xenial_x86_64.deb
 
-# VirtualBox
-wget -c https://download.virtualbox.org/virtualbox/6.1.0/virtualbox-6.1_6.1.0-135406~Ubuntu~bionic_amd64.deb
-
 # Dropbox
 wget -c https://www.dropbox.com/download?dl=packages/ubuntu/dropbox_2019.02.14_amd64.deb
 
