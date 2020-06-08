@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Color
+COLOR_DEFAULT="\033[0;0m"
+COLOR_PRIMARY="\033[1;94m"
+COLOR_SUCESS="\033[1;92m"
+COLOR_DANGER="\033[1;31m"
+COLOR_WARNING="\033[1;33m"
+
 # Init of Script
 echo
 echo "    __  __        __        __         _                             "
