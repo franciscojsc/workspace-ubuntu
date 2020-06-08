@@ -15,6 +15,7 @@ diodon
 make
 gparted
 gdebi
+baobab
 snap
 gitkraken
 dbeaver-ce

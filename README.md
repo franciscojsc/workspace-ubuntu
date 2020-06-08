@@ -30,6 +30,7 @@ The following steps provide instructions for performing program installations an
 - make
 - gparted
 - gdebi
+- baobab
 - snap
 - gitkraken
 - dbeaver-ce
