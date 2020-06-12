@@ -14,8 +14,8 @@ echo "           |___/                               |_|                   "
 echo  -e "${COLOR_DEFAULT}"
 
 # Removing any apt locks
-sudo rm /var/lib/dpkg/lock-frontend;
-sudo rm /var/cache/apt/archives/lock;
+sudo rm /var/lib/dpkg/lock-frontend > /dev/null 2>&1;
+sudo rm /var/cache/apt/archives/lock > /dev/null 2>&1;
 
 # Check net
 source ./tools/check-net.sh
