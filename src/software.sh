@@ -7,7 +7,10 @@ sudo apt-get update
 SOFTWARE_TO_INSTALL=$(cat ./softwares/software.txt)
 
 for software in ${SOFTWARE_TO_INSTALL[@]}; do
-    sudo apt-get -y install $software
+    if [ -z $(which ${software}) ]
+    then
+        sudo apt-get -y install $software
+    fi
 done
 
 # Remove apport
