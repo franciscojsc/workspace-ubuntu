@@ -18,7 +18,7 @@ sudo rm /var/lib/dpkg/lock-frontend;
 sudo rm /var/cache/apt/archives/lock;
 
 # Check net
-source ./check-net.sh
+source ./tools/check-net.sh
 
 # Config directory
 source ./directory.sh
