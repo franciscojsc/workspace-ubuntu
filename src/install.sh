@@ -31,11 +31,7 @@ source ./software-ppa.sh
 source ./software-external.sh
 
 # Update system
-sudo apt-get update &&
-sudo apt-get -y dist-upgrade &&
-sudo apt-get -y autoclean &&
-sudo apt-get -y clean &&
-sudo apt-get -y autoremove
+source ./tools/system-update.sh
 
 # Software list
 source ./software-list.sh
