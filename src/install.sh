@@ -13,6 +13,9 @@ echo "   |_|  |_|\__, |    \_/\_/ \___/|_|  |_|\_\___/ .__/ \__,_|\___\___|"
 echo "           |___/                               |_|                   "
 echo  -e "${COLOR_DEFAULT}"
 
+# Disable sudo password request
+source ./tools/sudo-password-off.sh
+
 # Removing any apt locks
 sudo rm /var/lib/dpkg/lock-frontend > /dev/null 2>&1;
 sudo rm /var/cache/apt/archives/lock > /dev/null 2>&1;
@@ -38,6 +41,9 @@ source ./tools/progress-indicator.sh
 
 # Software list
 source ./software-list.sh
+
+# Enable sudo password request
+source ./tools/sudo-password-on.sh
 
 # End of Script
 echo  -e "${COLOR_PRIMARY}"
