@@ -20,15 +20,15 @@ sudo rm /var/cache/apt/archives/lock > /dev/null 2>&1;
 # Check net
 source ./tools/check-net.sh
 
-# Config directory
-source ./directory.sh
-
 # Softwares
 source ./software.sh
 source ./software-snap.sh
 source ./software-script.sh
 source ./software-ppa.sh
 source ./software-external.sh
+
+# Directory configuration
+source ./tools/directory-configuration.sh
 
 # Update system
 source ./tools/system-update.sh
