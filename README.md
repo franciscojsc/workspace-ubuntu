@@ -1,8 +1,11 @@
-# :tada: Config my workstation with Operation System Xubuntu :tada:
+# :tada: Config my workstation with Operation System Ubuntu :tada:
 
-This repository is intended to provide the initial setup after installing the Ubuntu operating system by providing some scripts to download and install programs.
+This repository is intended to provide the initial configuration after installing the Ubuntu operating system and derived distributions, providing some scripts to download and install programs.
 
-![Tux and logo do Xubuntu](tux-xubuntu.png "Tux and logo do Xubuntu")
+<figure style="text-align:center;">
+    <img src="tux.png" alt="Linux mascot penguin known as Tux with some handwork tools" title="Linux mascot penguin known as Tux with some handwork tools">
+    <figcaption>Image by <a href="https://pixabay.com/users/OpenClipart-Vectors-30363">OpenClipart-Vectors</a> from <a href="https://pixabay.com">Pixabay</a></figcaption>
+</figure>
 
 ## Getting Started :rocket: :running: :walking:
 
@@ -55,17 +58,17 @@ The following steps provide instructions for performing program installations an
 
 Clone this repository:
 ```bash
-git clone https://github.com/franciscojsc/workspace-xubuntu.git
+git clone https://github.com/franciscojsc/workspace-ubuntu.git
 ```
 
 Enter the folder:
 ```bash
-cd workspace-xubuntu/src/
+cd workspace-ubuntu/src/
 ```
 
 Assign execute permission to scripts:
 ```bash
-sudo chmod +x *.sh
+chmod -vR +x .
 ```
 
 Run the script:
