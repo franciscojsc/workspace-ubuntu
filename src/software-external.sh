@@ -29,7 +29,7 @@ installSoftwareExternal() {
         sudo dpkg --add-architecture i386
 
         # Install package .deb
-        if [ ! -z $(ls) ]
+        if [ $(ls | wc -l) != 0 ]
         then
             sudo dpkg -i *.deb
             sudo dpkg --configure -a 
