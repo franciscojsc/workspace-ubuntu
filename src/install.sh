@@ -33,6 +33,9 @@ source ./tools/directory-configuration.sh
 # Update system
 source ./tools/system-update.sh
 
+# Progress
+source ./tools/progress-indicator.sh
+
 # Software list
 source ./software-list.sh
 
