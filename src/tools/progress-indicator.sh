@@ -17,12 +17,11 @@ progress() {
         sleep $FRAME_INTERVAL
     done
 
-    if [ -z "$(jobs)" ]
+    if [ -z $(jobs -pr) ]
     then
         echo -ne "\\r   \n"
         tput cnorm -- normal
     else
-        jobs > /dev/null 2>&1
         progress
     fi
 }
